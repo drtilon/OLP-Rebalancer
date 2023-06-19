@@ -25,9 +25,9 @@ Clone the rebalancer template here:
 
 ***Template Information***
 
-The [config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/config.json) file contains the relevent contract addresses for this project, along with the RPCs and other relevent configurations.
+The [config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/config.json) file contains the relevant contract addresses for this project, along with the RPCs and other relevant configurations.
 
-[abis.py](https://github.com/TJ-2/OLP-Rebalancer/blob/master/abis.py) file contains the releveant ABIs used to interact with the relevant contracts. 
+[abis.py](https://github.com/TJ-2/OLP-Rebalancer/blob/master/abis.py) file contains the relevant ABIs used to interact with the relevant contracts. 
 
 [reserve_config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/reserve_config.json) contains an example output for the 
 1. Create a web3 instance connected to TelosEVM using a primary web3 provider.
@@ -42,7 +42,7 @@ The [config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/config.json
 
 1. Read Vault data from the "vault_reader" contract by calling the "getVaultTokenInfoV4" function
 
-### Task 3:  Data Handling pt1:
+### Task 3:  Data Handling:
 
 Use the data from Task 2 to calculate the following:
 
@@ -58,7 +58,7 @@ Use the data from Task 2 to calculate the following:
 4. Longs Deviation for each volatileToken: 
 *longsDeviation  =  abs((TargetLongSize  -  maxGlobalLongSizes) /  maxGlobalLongSizes) *  100*
 
-Check if any of the longs/shorts deviations are greater than the GlobalMaxDeviation (this is set in config.json as 10%). If they are, call the "setMaxGlobalSizes' function on positionRouter passing in tokens[], longSizes[] and shortSizes[].  
+Check if any of the longs/shorts deviations are greater than the GlobalMaxDeviation (this is set in config.json as 10%). If they are, call the "setMaxGlobalSizes' function on positionRouter passing in tokens[], longSizes[], and shortSizes[].  
 
 ### Task 3:  Running the program:
 
