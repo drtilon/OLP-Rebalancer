@@ -60,6 +60,12 @@ Use the data from Task 2 to calculate the following:
 
 Check if any of the longs/shorts deviations are greater than the GlobalMaxDeviation (this is set in config.json as 10%). If they are, call the "setMaxGlobalSizes' function on positionRouter passing in tokens[], longSizes[], and shortSizes[]. Ensure you are passing values with correct decimal precision. (You will not be able to call this function without special admin privileges, for this task just make a dummy call). 
 
+
+Consider edge cases and add handling for such conditions:
+Example: What happens if rebalance conditions are met, however, the current long/shorts for a token are greater than the new maxGlobal long/short sizes.
+Kudos for finding/handing other edge cases!
+
+
 ### Task 3:  Running the program:
 
 1. Run the program on a loop every X minutes. Choose an appropriate value for X. 
