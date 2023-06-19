@@ -40,7 +40,7 @@ The [config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/config.json
 
 ### Task 2: ETH-Calls:
 
-1. Read Vault data from the "vault_reader" contract by calling the "getVaultTokenInfoV4"
+1. Read Vault data from the "vault_reader" contract by calling the "getVaultTokenInfoV4" function
 
 ### Task 3:  Data Handling pt1:
 
