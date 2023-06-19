@@ -26,12 +26,12 @@
         "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
         "0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E"
     ],
-    "tokenDecimals": [
+    "volatileTokenDecimals": [
         8,
         18,
         18
     ],
-    "tokenWeight": [
+    "targetTokenWeight": [
         10000,
         20000,
         20000,
@@ -44,5 +44,9 @@
         0,
         0,
         0
-    ]
+    ],
+    "SHORT_SIZE_POOL_RATIO": 0.4,
+    "LONG_SIZE_POOL_RATIO": 0.6,
+    "BUFFER_AMOUNT_RATIO":0.3,
+    "GlobalMaxDeviation": 10
 }
