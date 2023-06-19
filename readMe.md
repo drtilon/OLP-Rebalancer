@@ -58,7 +58,7 @@ Use the data from Task 2 to calculate the following:
 4. Longs Deviation for each volatileToken: 
 *longsDeviation  =  abs((TargetLongSize  -  maxGlobalLongSizes) /  maxGlobalLongSizes) *  100*
 
-Check if any of the longs/shorts deviations are greater than the GlobalMaxDeviation (this is set in config.json as 10%). If they are, call the "setMaxGlobalSizes' function on positionRouter passing in tokens[], longSizes[], and shortSizes[].  
+Check if any of the longs/shorts deviations are greater than the GlobalMaxDeviation (this is set in config.json as 10%). If they are, call the "setMaxGlobalSizes' function on positionRouter passing in tokens[], longSizes[], and shortSizes[]. Ensure you are passing values with correct decimal precision. (You will not be able to call this function without special admin privileges, for this task just make a dummy call). 
 
 ### Task 3:  Running the program:
 
