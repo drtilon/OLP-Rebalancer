@@ -29,7 +29,6 @@ The [config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/config.json
 
 [abis.py](https://github.com/TJ-2/OLP-Rebalancer/blob/master/abis.py) file contains the relevant ABIs used to interact with the relevant contracts. 
 
-[reserve_config.json](https://github.com/TJ-2/OLP-Rebalancer/blob/master/reserve_config.json) contains an example output for the 
 1. Create a web3 instance connected to TelosEVM using a primary web3 provider.
 2. Check if the connection is successful. 
 3. Fallback to a secondary web3 provider in case of connection failure using appropriate error capturing. 
